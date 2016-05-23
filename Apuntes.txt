@@ -1,0 +1,13 @@
+
+
+
+Hacer los commits con un enlace a la tarjeta de trello en el comentario, puede haber mas cosas a parte del enlace
+
+En el HookListener, hacer expresion regular para quedarme con lo que empieza por "http://trello/*" y ver como obtener el id de la tarjeta a partir del enlace.
+
+Cuando nos metemos a la interfaz, seleccionas una tarea y se buscan todos los commits que tengan en el comentario la url de esa tarea. Hacer en el TaskController(clase hecha vacia)
+Hay que hacer query a mongo a la coleccion task (a crear)
+
+
+
+Y desde la vista, index, llamar al task controller
